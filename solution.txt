@@ -1,0 +1,100 @@
+  396  ls
+  397  cd star_wars
+  398  ls
+  399  mkdir empire
+  400  mkdir rebellion
+  401  ls
+  402  cd empire
+  403  touch darth_vader.txt
+  404  ls
+  405  echo "... Heavy Breathing ... " >> darth_vader.txt
+  406  ls
+  407  cd ..
+  408  ls
+  409  empire
+  410  ls
+  411  touch emperor_palpatine.txt
+  412  ls
+  413  cd death_star
+  414  mkdir death_star
+  415  ls
+  416  mv darth_vader.txt death_star/darth_vader.txt
+  417  ls
+  418  cd ..
+  419  ls
+  420  cd rebellion
+  421  ls
+  422  touch princess_leia && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  423  mkdir Obi_Wan.txt
+  424  mkdir luke_skywalker.txt
+  425  mkdir millenium_falcon
+  426  ls
+  427  millenium_falcon
+  428  mkdir han_solo.txt
+  429  mkdir chewbacca.txt
+  430  ls
+  431  mv luke_skywalker.txt millenium_falcon/luke_skywalker.txt
+  432  cd ..
+  433  mv luke_skywalker.txt millenium_falcon/luke_skywalker.txt
+  434  mv obi-wan.txt millenium_falcon/princess_leia.txt
+  435  mv obi-wan.txt millenium_falcon/obi-wan.txt
+  436  mkdir obi_wan.txt
+  437  mv obi-wan.txt millenium_falcon/obi-wan.txt
+  438  cd ..
+  439  rebellion
+  440  mv Obi_Wan.txt millenium_falcon/Obi_wan.txt
+  441  mv princess_leia.txt millenium_falcon/princess.leia.txt
+  442  mv rebellion/millenium_falcon empire/death_star/millenium_falcon
+  443  cd ..
+  444  mv rebellion/millenium_falcon empire/death_star/millenium_falcon
+  445  mv empire/death_star/millenium_falcon/* empire/death_star
+  446  ls
+  447  cd empire
+  448  cd death_star
+  449  rm Obi_wan.txt
+  450  rm -rf Obi_wan.txt
+  451  cd ..
+  452  ls
+  453  cd ..
+  454  ls
+  455  mv chewbacca.txt millenium_falcon/chewbacca.txt
+  456  cd empire
+  457  mv chewbacca.txt millenium_falcon/chewbacca.txt
+  458  ls
+  459  cd death_star
+  460  mv chewbacca.txt millenium_falcon/chewbacca.txt
+  461  mv han_solo.txt millenium_falcon/han_solo.txt
+  462  mv luke_skywalker.txt millenium_falcon/luke_skywalker.txt
+  463  mv princess_leia.txt millenium_falcon/princess.leia.txt
+  464  mv princess.leia.txt millenium_falcon/princess_leia.txt
+  465  ls
+  466  cd millenium_falcon
+  467  mv empire/death_star/millenium_falcon rebellion
+  468  cd ..
+  469  mv empire/death_star/millenium_falcon rebellion
+  470  ls
+  471  cd empire
+  472  ls
+  473  death_star
+  474  mv empire/death_star/darth_vader.txt empire/darth_vader.txt
+  475  cd ..
+  476  mv empire/death_star/darth_vader.txt empire/darth_vader.txt
+  477  ls
+  478  cd ..
+  479  ls
+  480  mv empire/death_star/darth_vader.txt empire/darth_vader.txt
+  481  ls
+  482  cd empire
+  483  rm -rf death_star
+  484* ls
+  485* git push u1_hw_star_wars main
+  486* push act1.sh main
+  487* git push act1.sh main
+  488* git status
+  489* git fetch upstream
+  490* git status
+  491* git pull 
+  492* git pull u1_hw_star_wars main
+  493* ls
+  494* cd u1_hw_star_wars
+  495* ls
